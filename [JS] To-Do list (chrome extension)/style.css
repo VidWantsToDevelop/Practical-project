@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 700px;
+  min-height: 300px;
+  position: absolute;
+  background: rgb(65, 65, 65);
+}
+
+#inpit-el,
+button {
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+#input-el {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 4px groove rgba(41, 41, 41, 0.678);
+  background: rgb(163, 163, 163);
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(82, 82, 82);
+}
+
+/*Buttons styles*/
+#clear-btn,
+#save-btn,
+#refresh-btn {
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  color: whitesmoke;
+  background: rgba(0, 158, 26, 0.664);
+}
+
+#clear-btn {
+  background: rgba(255, 99, 71, 0.644);
+  margin-left: 25px;
+}
+
+#refresh-btn {
+  background: rosybrown;
+  margin-left: 25px;
+}
+
+ul {
+  list-style: none;
+  border: 4px groove rgba(116, 116, 116, 0.678);
+  border-radius: 15px;
+  background: rgba(78, 78, 78, 0.678);
+}
+
+li {
+  text-transform: uppercase;
+  list-style: none;
+}
+
+li > p,
+button {
+  display: inline-block;
+}
+
+.check-btn {
+  color: greenyellow;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: background-color 1s ease-out 100ms;
+  transition: border-radius 1.25s ease-out 100ms;
+  transition: font-size 0.65s ease-out 100ms;
+}
+
+.check-btn:hover {
+  font-size: 110%;
+  border-radius: 15px;
+  background-color: rgba(128, 128, 128, 0.568);
+}
