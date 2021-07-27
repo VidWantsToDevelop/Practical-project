@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Task list",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/icon.png"
+    },
+    "permissions": [
+    ]
+    
+}
